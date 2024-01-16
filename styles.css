@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3a86ff;
+  font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 680px;
+  max-height: 400px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.quoteDiv {
+  margin-top: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.quote {
+  font-size: 25px;
+}
+
+.author {
+  text-align: end;
+  font-style: italic;
+}
+
+.interact {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.interact .icons {
+  font-size: 25px;
+}
+.icons .fa-regular,
+.fa-solid {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.newQuote {
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #3a86ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.newQuote:hover {
+  background-color: #2c71e1;
+}
+
+@media (max-width: 665px) {
+  .container {
+    max-width: 490px;
+    padding: 30px;
+  }
+}
+@media (max-width: 490px) {
+  .container {
+    max-width: 350px;
+    padding: 30px;
+  }
+}
