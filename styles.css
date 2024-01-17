@@ -17,15 +17,8 @@ body {
 .container {
   background-color: #fff;
   max-width: 680px;
-  max-height: 400px;
   padding: 30px;
   border-radius: 10px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
 }
 
 .quoteDiv {
@@ -79,6 +72,12 @@ h1 {
 @media (max-width: 490px) {
   .container {
     max-width: 350px;
+    padding: 30px;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    max-width: 200px;
     padding: 30px;
   }
 }
